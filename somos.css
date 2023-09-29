@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.qSomos h1{
+    display: flex;
+    justify-content: flex-start;
+    color: #e59f5f;
+    margin: 4%;
+}
+
+.linea{
+    border: solid 1px #e59f5f;
+    margin: 3%;
+    size: 40px;
+}
+
+.carrousel{
+    width:80%;
+    margin: 2% 10%  2% 10%;
+}
+
+.carrousel img{
+    max-width: 100%;
+}
+
+.texto{
+    width: 100%;
+    background-image: url(./assets/q.Somos.png);
+}
+
+.texto p {
+    padding: 2%;
+    margin: 3%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e59f5f;
+}
+
+@media (min-width: 700px){
+    .qSomos{
+        display:flex;
+        flex-direction: column;
+        flex: wrap;
+    }
+    h1{
+        width: 100%;
+        margin-top: 2%;
+        
+        
+    }
+    .linea{
+        display: none;
+    }
+    .texto{
+        margin-bottom: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        order: 1;
+        background-image: none;
+    }
+    .texto p {
+        width: 100%;
+        margin-top: 0;
+    }
+    .carrousel{
+        display: flex;
+
+        flex-wrap: wrap;
+        order: 2;
+        width: 20%;
+        margin: 2%;
+        
+    }
+    .carrousel img{
+        max-width: 100%;
+        font-size: 16px;}
+
+    /*.fondo{
+        display: flex;
+        order: 3;
+        width: 100%;
+        
+    }*/
+
+    }
