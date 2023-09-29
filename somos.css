@@ -3,20 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* TITULO */
 .qSomos h1{
     display: flex;
     justify-content: flex-start;
     color: #e59f5f;
     margin: 4%;
 }
-
+/* HR */
 .linea{
     border: solid 1px #e59f5f;
     margin: 3%;
     size: 40px;
 }
-
+/* CONTAINER DE LA IMAGEN */
 .carrousel{
     width:80%;
     margin: 2% 10%  2% 10%;
@@ -25,7 +25,7 @@
 .carrousel img{
     max-width: 100%;
 }
-
+/* Container del texto*/
 .texto{
     width: 100%;
     background-image: url(./assets/q.Somos.png);
