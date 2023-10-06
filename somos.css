@@ -57,22 +57,23 @@
     }
     .texto{
         margin-bottom: 2%;
-        display: flex;
-        flex-wrap: wrap;
         width: 70%;
         order: 1;
         background-image: none;
+        padding-top: 2%;
     }
     .texto p {
         width: 100%;
         margin-top: 0;
     }
-    .carrousel{
+    .container{
         display: flex;
-
+        width: 100%;
+    }
+    .carrousel{
         flex-wrap: wrap;
         order: 2;
-        width: 20%;
+        width: 30%;
         margin: 2%;
         
     }
