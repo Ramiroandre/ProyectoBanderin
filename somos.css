@@ -48,12 +48,13 @@
     }
     h1{
         width: 100%;
-        margin-top: 2%;
+        margin: 2%;
         
         
     }
     .linea{
-        display: none;
+        margin: 2%;
+        size: 40px;
     }
     .texto{
         margin-bottom: 2%;
