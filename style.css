@@ -6,8 +6,9 @@
 :root{
     --color-naranja: #f2794c;
     --color-mostaza: #d79d22;
+    --color-mostaza-ligth:#d79e22c4;
     --color-pastel: #fed9a2;
-    --color-blanco: #f8e6d8;
+    --color-blanco: #fff;
     --color-celeste: #cce7d4;
     --tipografia-primaria: 'Playfair Display', serif;
     --tipografia-secundaria: 'Roboto', sans-serif;
