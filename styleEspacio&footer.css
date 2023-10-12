@@ -130,14 +130,15 @@ button:hover{
 
 .novedades{
     z-index: 0;
-    padding:  4rem 4rem 2rem 23rem;
     width: 100%;
+    padding: 4rem 0rem;
     background-color: rgb(232, 233, 235);
 }
 
 .contedor_novedades{
     align-content: center;
     max-width: 1200px;
+    margin: auto;
 }
 
 .subtitulo_novedades{
@@ -192,13 +193,13 @@ footer{
     text-align: center;
     color: white;
     width: 100%;
-    top: 842px;
 }
 
 .footer{
     max-width: 1200px;
     background-color: #f89967;
     display: flex;
+    margin: auto;
     justify-content: space-around;
 }
 
