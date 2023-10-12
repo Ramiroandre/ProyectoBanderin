@@ -173,6 +173,7 @@ section .tarjeta .divimg .btn{
         height: auto;
     }
     .favoritos .verMas .btn{
-        margin-right: 310px;
+        margin-right: 230px;
+        padding: 1rem;
     }
 }

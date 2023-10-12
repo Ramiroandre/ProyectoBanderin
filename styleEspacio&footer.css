@@ -4,10 +4,9 @@
     scroll-behavior: smooth;
 }
 
-.espacioBanderin{
+.espacioBanderin {
     max-width: 1200px;
-    position: relative;
-    left: -10px;
+    margin: auto;
 }
 
 .titulo_espacioBanderin{
@@ -125,15 +124,13 @@ button:hover{
 
 .ingresar{
     position: absolute;
-    top: 422px;
+    top: 280px;
     left: 520px;
 }
 
 .novedades{
     z-index: 0;
-    padding: 4rem 0;
-    position: absolute;
-    top: 32rem;
+    padding:  4rem 4rem 2rem 23rem;
     width: 100%;
     background-color: rgb(232, 233, 235);
 }
@@ -194,7 +191,6 @@ footer{
     background-color: rgb(248, 153, 103);
     text-align: center;
     color: white;
-    position: absolute;
     width: 100%;
     top: 842px;
 }
@@ -235,7 +231,10 @@ footer{
         left: 450px;
     }
     .contedor_novedades {
-        padding-left: 1rem;
+        padding-left: 2rem;
+    }
+    .novedades {
+        padding: 4rem 0rem 4rem 0rem;
     }
 }
 
@@ -253,16 +252,15 @@ footer{
 }
 
 @media (max-width: 425px) {
+    .contenedor_novedades{
+        text-align: center;
+        margin: auto;   
+    }
     .imagen_espacioBanderin {
-        width: 190px;
-        top: 263px;
-        border-radius: 10px;
-        right: -16px;
+        display:none;
     }
     .espacioBanderin {
         width: 100%;
-        position: relative;
-        left: 10%;
     }
     .texto_espacioBanderin {
         font-size: 16px;
@@ -282,16 +280,14 @@ footer{
     .novedades {
         z-index: 0;
         padding: 4rem 0;
-        position: absolute;
         top: 37rem;
         left: 0px;
-        width: 125%;
         background-color: rgb(232, 233, 235);
     }
     .ingresar {
         position: absolute;
-        top: 429px;
-        left: 60px;
+        top: 300px;
+        left: 130px;
     }
     .buttonPrimary {
         padding: 0.8rem 2rem;
@@ -304,7 +300,7 @@ footer{
     .contactoForm {
         color: #f89967;
         display: flex;
-        width: 44%;
+        width: 96%;
         flex-direction: column;
     }
     .footer {
@@ -317,9 +313,6 @@ footer{
         background-color: rgb(248, 153, 103);
         text-align: center;
         color: white;
-        position: absolute;
-        width: 125%;
-        top: 980px;
     }
     .links{
         margin: 3rem 0rem;

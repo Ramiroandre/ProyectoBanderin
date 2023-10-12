@@ -47,12 +47,6 @@
         flex-direction: column;
         flex: wrap;
     }
-    h1{
-        width: 100%;
-        margin: 2%;
-        
-        
-    }
     .linea{
         margin: 2%;
         size: 40px;
