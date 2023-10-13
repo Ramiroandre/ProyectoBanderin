@@ -154,13 +154,19 @@ section .tarjeta .divimg .btn{
     .linea{
         display: none;
     }
+    .img{
+        width: 100%;
+    }
+    .divimg{
+        width: 320px;
+    }
 /*categorias de productos*/  
     .prodCategoria{
         margin-left: 0;
         justify-content: center;
     }
     section{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     section .tarjeta{
         margin-top: 20px;
@@ -174,7 +180,7 @@ section .tarjeta .divimg .btn{
         margin-left: 0;
     }
     .favoritos .tarjeta{
-        flex-direction: column;
+        flex-wrap: wrap;
         height: auto;
     }
     .favoritos .verMas .btn{
