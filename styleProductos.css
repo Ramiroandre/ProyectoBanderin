@@ -134,23 +134,30 @@ section .tarjeta .divimg .btn{
 
 .favoritos .verMas .btn{
     position: relative;
-    right: -30rem;
-    top: 2.5rem;
     padding: 1rem;
+    left: 30rem;
     background-color: var(--color-anaranjado);
     color: antiquewhite;
 }
 
+@media  (max-width: 1440px) {
+    .favoritos .verMas .btn{
+        position: relative;
+        padding: 1rem 2rem;
+        top: 2rem;
+        left: 42rem;
+        background-color: var(--color-anaranjado);
+        color: antiquewhite;
+    }
+}
 
-
-
-@media screen and (max-width: 1260px) {
+@media  (max-width: 1260px) {
     .linea{
         width: 600px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media  (max-width: 1024px) {
     .linea{
         display: none;
     }
@@ -184,25 +191,25 @@ section .tarjeta .divimg .btn{
         height: auto;
     }
     .favoritos .verMas .btn{
-        margin-right: 20px;
-        margin-top: -2rem;
         padding: 1rem;
+        left: 30rem;
     }
 }
 
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
+    .favoritos .verMas .btn {
+        top: 23px;
+        margin-right: 20px;
+        margin-top: -2rem;
+        left: 21rem;
+        padding: 1rem 2rem;
 
+        }
 }
-.favoritos .verMas .btn {
-top: 23px;
-margin-right: 20px;
-margin-top: -2rem;
-padding: 1rem 2rem;
-left: 21rem;
 
-}
 
-@media screen and (max-width: 425px){
+
+@media (max-width: 425px){
     .favoritos .verMas .btn {
         left:10rem;
         z-index: 4;
@@ -212,13 +219,13 @@ left: 21rem;
     }
 }
 
-@media screen and (max-width: 375px){
+@media (max-width: 375px){
     .favoritos .verMas .btn {
         left: 8rem;
     }
 }
 
-@media screen and (max-width: 375px){
+@media (max-width: 320px){
 
 .favoritos .verMas .btn {
     left: 6rem;
