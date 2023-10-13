@@ -19,6 +19,11 @@ h2{
     color:  var(--color-anaranjado);
 }
 
+.proCat{
+    max-width: 1200px;
+    margin: auto;
+}
+
 
 .prodCategoria{
     margin-left: 120px;
@@ -32,7 +37,6 @@ h2{
 }
 
 .linea{
-    width: 800px;
     height: 3px;
     background-color: var(--color-anaranjado);
     border: solid var(--color-anaranjado) 0.1px;
@@ -90,6 +94,11 @@ section .tarjeta .divimg .btn{
 
 /*Productos favoritos*/
 
+.proFav{
+    max-width: 1200px;
+    margin: auto;
+}
+
 .favoritos{
     width: 100%;
     height: 600px;
@@ -100,7 +109,6 @@ section .tarjeta .divimg .btn{
 .favoritos .profav{
     margin-left: 120px;
     padding-top: 50px;
-    display: flex;
     justify-content: space-between;
 }
 
@@ -124,12 +132,9 @@ section .tarjeta .divimg .btn{
 }
 
 .favoritos .profav .linea{
-    width: 800px;
     height: 3px;
     background-color: var(--color-anaranjado);
     border: solid var(--color-anaranjado) 0.1px;
-    margin-top: 65px;
-    margin-right: 120px;
 }
 
 .favoritos .verMas .btn{

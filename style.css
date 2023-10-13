@@ -4,6 +4,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.qSomos{
+    max-width: 1200px;
+    margin: auto;
+}
+
 /* TITULO */
 .qSomos h1{
     display: flex;
