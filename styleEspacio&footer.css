@@ -232,7 +232,7 @@ footer{
         left: 450px;
     }
     .contedor_novedades {
-        padding-left: 2rem;
+        padding:1rem;
     }
     .novedades {
         padding: 4rem 0rem 4rem 0rem;
@@ -301,7 +301,6 @@ footer{
     .contactoForm {
         color: #f89967;
         display: flex;
-        width: 96%;
         flex-direction: column;
     }
     .footer {
@@ -326,15 +325,11 @@ footer{
     }
     .ingresar {
         position: absolute;
-        top: 440px;
+        top: 378px;
         left: 110px;
     }
     footer{
-        width: 125%;
         top: 1034px;
-    }
-    .contactoForm{
-        width: 50%;
     }
 }
 
@@ -342,7 +337,6 @@ footer{
     .contactoForm {
         color: #f89967;
         display: flex;
-        width: 58%;
         flex-direction: column;
     }
     .imagen_espacioBanderin {
@@ -353,10 +347,7 @@ footer{
     }
     .ingresar {
         position: absolute;
-        top: 443px;
-        left: 80px;
-    }
-    footer{
-        top: 1016px;
+        top: 356px;
+        left: 70px;
     }
 }
