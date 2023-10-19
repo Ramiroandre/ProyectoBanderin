@@ -3,141 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/styleEspacio&footer.css">
-    <link rel="icon" href="./assets/banderin-favicon-01.png">
-    <title>Banderin Hecho a Mano</title>
-    <!--google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="./style/styleProductos.css">
-    <link rel="stylesheet" href="./style/styleHero.css">
+    <title>Tienda Virtual</title>
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="link rel="preconnect href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@600&family=Dongle&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="contenedor">
+        <header>
+            <img src="img/logo.jpg" alt="Tienda">
+                <nav class="menuHeader">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Hombres</a></li>
+                        <li><a href="#">Mujeres</a></li>
+                        <li><a href="#">Niños</a></li>
+                        <li><a href="#">Nacionales</a></li>
+                        <li><a href="#">Importados</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <div class="contenedor">
+        <main>
+            <section> 
+                <div class="card-product">
+                   <div class="Producto"></div><img src="./img/producto.jpg" alt="Producto">
+                   <div class="Producto"></div><img src="./img/producto.jpg" alt="Producto">
+                   <div class="Producto"></div><img src="./img/producto.jpg" alt="Producto">
+                    <div class="description">Descripción Producto</div>
+                    <div class="precio">Precio</div>
+                    <div class="card-product-footer">
+                        <button>Comprar</button>
+                    <button>Favoritos</button>
+                    </div>
+                </div>
+                <div class="contenedor">
+            </section>
 
-    <section class="container-fluid hero-bg">
-        <div class="row hero-container">
-        <div class="col-12">
-            <h1 class="hero-h1">Tienda<br>colectiva de<br>emprendedores<br>marplatenses</h1>
-            <button class="btn btn-mostaza">Conoce más</button>
-        </div>
-        </div>
-    </section>
+        </main>
+        <aside>
+            <section>
+                <nav>
+                    <ul>
+                        <li><a href="#">Hombres</a></li>
+                        <li><a href="#">Mujeres</a></li>
+                        <li><a href="#">Niños</a></li>
+                        <li><a href="#">Nacionales</a></li>
+                        <li><a href="#">Importados</a></li>
+                        <li><a href="#">Contacto</a></li>
 
-    <div class="qSomos">
-        <h1>¿Quienes Somos?</h1>
-        <hr class="linea">
-        <div class="containers">
-            <div class="carrousel">
-                <img src="./assets/foto-tienda.png" alt="tienda" class="imagen">
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <form class="form">
+                    <h2>Contacto</h2>
+                    <input placeholder="Nombre completo">
+                    <input placeholder="Email" type="email">
+                    <textarea placeholder="Comentario"></textarea>
+                    <button>Enviar</button>
+                </form>
+            </section>
+        </aside>
+        </div>
+        <footer>
+            <div class="one">
+                <p>Datos de la empresa</p>
             </div>
-            
-            <div class="texto">
-                
-                <p>Somos Banderín Hecho a Mano, una tienda colectiva de productorxs marplatenses abierta al publico desde hace más de 5 años. En nuestro espacio podes encontrar a más de 80 compañerxs apostando a la produccion artesanal, ecologica y a la economía solidaria. Trabajamos de manera autogestiva y colaborativa tejiendo redes entre productor y consumidor: ¡para que puedas conocer la historia de quienes estan detras de cada producto! A su vez, buscamos fomentar un comercio justo y para todxs, ofreciendo variedad de precios y promociones para que el acceso a bienes artesanales y únicos no sea un privilegio.</p>
+            <div class="two">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Whatsapp</a>
+            </div>
+        </footer>
+    </div>
     
-                <p>¡Veni a conocernos y elegí artesanal, local autogestivo y amoroso!</p>
-            </div>    
-        </div>
-        
-        <!--<div class="fondo">
-        <img src="./assets/q.Somos.png" alt="fondo">
-        </div>
-        --->
-    </div>
-<div class="proCat">
-    <h2>Productos por categorias</h2>
-    <div class="linea"></div>
-    </div>
-    <section class="container">
-    <div class="tarjeta">
-        <div class="divimg">
-        <img class="img" src="./img/DSC_0761.jpg" alt="">
-        <button class="btn">Comprar</button>
-        </div>
-    </div>
-    <div class="tarjeta">
-        <div class="divimg">
-        <img class="img" src="./img/DSC_0770.jpg" alt="">
-        <button class="btn">Comprar</button>
-        </div>
-    </div>
-    <div class="tarjeta">
-        <div class="divimg">
-        <img class="img" src="./img/DSC_0882.jpg" alt="">
-        <button class="btn">Comprar</button>
-        </div>
-    </div>
-    </section>
-
-    <!--Productos favoritos-->
-
-    
-    <section class="favoritos">
-    <div class="profav">
-    <h2>Productos favoritos</h2>
-    <div class="linea"></div>
-    </div>
-    <div class="tarjeta">
-        <div class="divimg">
-        <img class="img" src="img/DSC_0916.jpg" alt="">
-        </div>
-        <div class="divimg">
-        <img class="img" src="img/IMG_20230810_170343.jpg" alt="">
-        </div>
-        <div class="divimg">
-        <img class="img" src="img/IMG_20230823_161304.jpg" alt="">
-        </div>
-        <div class="divimg">
-        <img class="img" src="img/DSC_0882.jpg" alt="">
-        </div>
-    </div>
-    <div class="verMas">
-        <button class="btn">Ver mas</button>
-    </div>
-    </section>
-    <section class="espacioBanderin">
-        <h1 class="titulo_espacioBanderin">Espacio Banderin</h1>
-        <div class="contenedor_espacioBanderin">
-            <div class="fondo_espacioBanderin">
-                <p class="texto_espacioBanderin">
-                    💚 Sabias que...? 
-                    Contamos con un espacio en planta alta para que puedas brindar clases talleres, charlas y más?!
-                    Asique si estás buscando, o sabes de alguien que necesite de un espacio en pleno centro llenito de amor, no dudes en mandarnos mensajito privado y te enviamos la propuesta!
-                    <br>
-                    🌿 Déjanos un comentario si ya pasaste a conocerlo 💚
-            </div>
-            <div class="contenedor_imagen">
-                <img src="./assets/IMG_20230727_161931.jpg" class="imagen_espacioBanderin">
-                <button class="buttonPrimary ingresar" type="button">INGRESAR</button>
-            </div>
-        </div>
-    </section>
-    <section class="novedades">
-        
-        <div class="contedor_novedades">
-            <h2 class="subtitulo_novedades">Recibi todas las novedades</h2>
-            <p class="texto">suscribete de manera gratuita y enterate de todo!</p>
-            <form class="contactoForm">
-                <label  for="nombre"></label>
-                <input class="inputs" type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
-                <label  for="email"></label>
-                <input class="inputs" type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico">
-                <button class="buttonPrimary" type="button">Enviar</button>
-            </form>
-        </div>
-    </section>
-    <footer>
-        <div class="footer">
-            <a href="#" class="links">Productos</a>
-            <a href="#" class="links">Menu</a>
-            <a href="#" class="links">Talleres</a>
-            <a href="#" class="links">Contacto</a>
-        </div>
-        Todos los derechos a Mar Del Plata Programa 2023&reg
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>
