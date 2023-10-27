@@ -15,20 +15,28 @@
     padding: 0;
 }
 
+h2{
+    color:  var(--color-anaranjado);
+}
 
 .proCat{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.prodCategoria{
     margin-left: 120px;
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
 }
 
-.proCat h2{
+.prodCategoria h2{
     color: var(--color-anaranjado);
 }
 
 .linea{
-    width: 800px;
     height: 3px;
     background-color: var(--color-anaranjado);
     border: solid var(--color-anaranjado) 0.1px;
@@ -43,7 +51,7 @@
     margin-top: 30px;
 }
 
-.container .proCat{
+.container .prodCategoria{
     width: 100px;
 }
 
@@ -86,6 +94,11 @@ section .tarjeta .divimg .btn{
 
 /*Productos favoritos*/
 
+.proFav{
+    max-width: 1200px;
+    margin: auto;
+}
+
 .favoritos{
     width: 100%;
     height: 600px;
@@ -96,7 +109,6 @@ section .tarjeta .divimg .btn{
 .favoritos .profav{
     margin-left: 120px;
     padding-top: 50px;
-    display: flex;
     justify-content: space-between;
 }
 
@@ -120,18 +132,107 @@ section .tarjeta .divimg .btn{
 }
 
 .favoritos .profav .linea{
-    width: 800px;
     height: 3px;
     background-color: var(--color-anaranjado);
     border: solid var(--color-anaranjado) 0.1px;
-    margin-top: 65px;
-    margin-right: 120px;
 }
 
 .favoritos .verMas .btn{
-    position: absolute;
-    right: 120px;
+    position: relative;
+    padding: 1rem;
+    left: 30rem;
     background-color: var(--color-anaranjado);
     color: antiquewhite;
-    margin-top: 15px;
 }
+
+@media  (max-width: 1440px) {
+    .favoritos .verMas .btn{
+        position: relative;
+        padding: 1rem 2rem;
+        top: 2rem;
+        left: 42rem;
+        background-color: var(--color-anaranjado);
+        color: antiquewhite;
+    }
+}
+
+@media  (max-width: 1260px) {
+    .linea{
+        width: 600px;
+    }
+}
+
+@media  (max-width: 1024px) {
+    .linea{
+        display: none;
+    }
+    .img{
+        width: 100%;
+    }
+    .divimg{
+        width: 320px;
+    }
+/*categorias de productos*/  
+    .prodCategoria{
+        margin-left: 0;
+        justify-content: center;
+    }
+    section{
+        flex-wrap: wrap;
+    }
+    section .tarjeta{
+        margin-top: 20px;
+    }
+/*productos favoritos*/    
+    .favoritos{
+        height: auto;
+    }
+    .favoritos .profav{
+        justify-content: center;
+        margin-left: 0;
+    }
+    .favoritos .tarjeta{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .favoritos .verMas .btn{
+        padding: 1rem;
+        left: 30rem;
+    }
+}
+
+@media (max-width: 768px){
+    .favoritos .verMas .btn {
+        top: 23px;
+        margin-right: 20px;
+        margin-top: -2rem;
+        left: 21rem;
+        padding: 1rem 2rem;
+
+        }
+}
+
+
+
+@media (max-width: 425px){
+    .favoritos .verMas .btn {
+        left:10rem;
+        z-index: 4;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 375px){
+    .favoritos .verMas .btn {
+        left: 8rem;
+    }
+}
+
+@media (max-width: 320px){
+
+.favoritos .verMas .btn {
+    left: 6rem;
+
+}}
