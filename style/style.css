@@ -35,7 +35,7 @@
 /* Container del texto*/
 .texto{
     width: 100%;
-    background-image: url(./assets/q.Somos.png);
+    background-image: url(../assets/q.Somos.png);
 }
 
 .texto p {
