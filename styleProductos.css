@@ -1,6 +1,10 @@
 :root{
     --color-anaranjado: #cb973a;
-    --color-turquesa: #35ec9d;
+    --color-mostaza: #d79d22;
+    --color-mostaza-ligth:#d79e22c4;
+    --color-celeste: #cce7d4;
+    --tipografia-primaria: 'Playfair Display', serif;
+    --tipografia-secundaria: 'Roboto', sans-serif;
     --lineas: lineas{
         width: 800px;
     height: 3px;
@@ -89,7 +93,7 @@ section .tarjeta .divimg .btn{
 .favoritos{
     width: 100%;
     height: 600px;
-    background-color: var(--color-turquesa);
+    background-color: var(--color-celeste);
     margin-top: 100px;
 }
 
@@ -119,6 +123,7 @@ section .tarjeta .divimg .btn{
     margin: 10px;
 }
 
+
 .favoritos .profav .linea{
     width: 800px;
     height: 3px;
@@ -128,6 +133,8 @@ section .tarjeta .divimg .btn{
     margin-right: 120px;
 }
 
+/*Boton ver mas*/
+
 .favoritos .verMas .btn{
     position: absolute;
     right: 120px;
@@ -135,6 +142,30 @@ section .tarjeta .divimg .btn{
     color: antiquewhite;
     margin-top: 15px;
 }
+
+.btn-verMas a{
+    text-decoration: none;
+    color: #cce7d4;
+    font-family: var(--tipografia-secundaria);
+}
+
+section .tarjeta .btn-modal{
+    border: none;
+    background-color: var(--color-celeste);
+}
+
+/*Modal*/
+
+.modal .modal-body{
+    display: flex;
+    justify-content: center;
+}
+
+.modal .img{
+    width: 300px;
+}
+
+
 
 
 
