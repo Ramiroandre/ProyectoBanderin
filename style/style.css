@@ -1,3 +1,14 @@
+:root{
+    --color-naranja: #f2794c;
+    --color-mostaza: #d79d22;
+    --color-mostaza-ligth:#d79e22c4;
+    --color-pastel: #fed9a2;
+    --color-blanco: #fff;
+    --color-celeste: #cce7d4;
+    --tipografia-primaria: 'Playfair Display', serif;
+    --tipografia-secundaria: 'Roboto', sans-serif;
+}
+
 *{
 
     padding: 0;
@@ -14,12 +25,12 @@
 .qSomos h1{
     display: flex;
     justify-content: flex-start;
-    color: #e59f5f;
+    color: var(--color-mostaza-ligth);
     margin: 4%;
 }
 /* HR */
 .linea{
-    border: solid 1px #e59f5f;
+    border: solid 1px var(--color-mostaza-ligth) ;
     margin: 3%;
     size: 40px;
 }
@@ -44,7 +55,7 @@
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    color: #e59f5f;
+    color: var(--color-mostaza-ligth);
 }
 
 @media (min-width: 700px){
@@ -96,14 +107,5 @@
     }
 
 
-:root{
-    --color-naranja: #f2794c;
-    --color-mostaza: #d79d22;
-    --color-mostaza-ligth:#d79e22c4;
-    --color-pastel: #fed9a2;
-    --color-blanco: #fff;
-    --color-celeste: #cce7d4;
-    --tipografia-primaria: 'Playfair Display', serif;
-    --tipografia-secundaria: 'Roboto', sans-serif;
-}
+
 
