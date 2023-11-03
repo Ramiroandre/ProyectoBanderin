@@ -218,6 +218,7 @@ section .tarjeta .divimg .btn{
     .favoritos .verMas .btn {
         left:10rem;
         z-index: 4;
+        top: 0.2rem;
     }
     .container{
         flex-direction: column;
@@ -227,6 +228,7 @@ section .tarjeta .divimg .btn{
 @media (max-width: 375px){
     .favoritos .verMas .btn {
         left: 8rem;
+        top: 0.2rem;
     }
 }
 
@@ -234,5 +236,6 @@ section .tarjeta .divimg .btn{
 
 .favoritos .verMas .btn {
     left: 6rem;
+    top: 0.2rem;
 
 }}
