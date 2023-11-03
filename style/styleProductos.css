@@ -110,6 +110,8 @@ section .tarjeta .divimg .btn{
 .favoritos .profav{
     margin-left: 120px;
     padding-top: 50px;
+    margin: auto;
+    max-width: 1200px;
     justify-content: space-between;
 }
 
