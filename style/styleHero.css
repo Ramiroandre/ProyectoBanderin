@@ -23,20 +23,6 @@
     color: var(--color-blanco);
 }
 
-@media (max-width: 425px) {
-    .hero-h1{
-        font-size: 2.5rem;
-    }
-    .hero-bg{
-        width: 100%;
-        height: 500px;
-        display: flex;
-        background-color: var(--color-celeste);
-        align-items: center;
-        justify-content: center;
-    }
-}
-
 
 @media (max-width: 1024px){
     .hero-h1{
