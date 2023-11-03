@@ -169,9 +169,6 @@ section .tarjeta .divimg .btn{
     .img{
         width: 100%;
     }
-    .divimg{
-        width: 320px;
-    }
 /*categorias de productos*/  
     .prodCategoria{
         margin-left: 0;

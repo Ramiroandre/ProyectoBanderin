@@ -3,9 +3,7 @@
     height: 500px;
     background-color: var(--color-celeste);
 }
-.hero-container{
-    padding: 100px 100px; 
-}
+
 .hero-h1{
     font-family: var(--tipografia-primaria);
     font-size: 55px;
