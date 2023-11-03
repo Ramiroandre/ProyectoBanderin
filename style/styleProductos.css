@@ -152,8 +152,8 @@ section .tarjeta .divimg .btn{
     .favoritos .verMas .btn{
         position: relative;
         padding: 1rem 2rem;
-        top: 2rem;
-        left: 42rem;
+        left: 58.5rem;
+        top: 1rem;
         background-color: var(--color-anaranjado);
         color: antiquewhite;
     }
