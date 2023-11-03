@@ -148,12 +148,19 @@ section .tarjeta .divimg .btn{
     color: antiquewhite;
 }
 
+@media  (max-width: 2560px) {
+    .favoritos .verMas .btn{
+        left: 77rem;
+        top: 2rem;
+    }
+}
+
 @media  (max-width: 1440px) {
     .favoritos .verMas .btn{
         position: relative;
         padding: 1rem 2rem;
-        left: 58.5rem;
-        top: 1rem;
+        left: 41rem;
+        top: 2rem;
         background-color: var(--color-anaranjado);
         color: antiquewhite;
     }
