@@ -12,7 +12,7 @@
 .titulo_espacioBanderin{
     z-index: 3;
     font-size: 30px;
-    color: #f89967;
+    color: var(--color-mostaza);
     position: relative;
     top: 1rem;
     background: white;
@@ -23,9 +23,9 @@
 .contenedor_espacioBanderin{
     display: flex;
     height: 385px;
-    border-bottom: 2px solid #f89967;
-    border-right: 2px solid #f89967;
-    border-top: 2px solid #f89967;
+    border-bottom: 2px solid var(--color-mostaza);
+    border-right: 2px solid var(--color-mostaza);
+    border-top: 2px solid var(--color-mostaza);
     padding: 40px;
     position: relative;
     z-index: 2;
@@ -84,8 +84,8 @@ transition: 2s;
 }
 
 button {
-font-family: system-ui, sans-serif;
-font-weight: bold;
+font-family: var(--tipografia-secundaria);
+font-weight: normal;
 font-size: 1rem;
 margin: 0;
 cursor: pointer;
@@ -100,14 +100,14 @@ button:hover{
 
 
 .fondo_espacioBanderin{
-    background-color: #cce7d4;
+    background-color: var(--color-celeste);
     width: 80%;
 }
 
 .texto_espacioBanderin{
     font-size: 24px;
     margin:3rem;
-    color: #c9825b;
+    color: var(--color-mostaza);
 }
 
 .contenedor_imagen{
@@ -132,7 +132,7 @@ button:hover{
     z-index: 0;
     width: 100%;
     padding: 4rem 0rem;
-    background-color: rgb(232, 233, 235);
+    background-color: var(--color-celeste);
 }
 
 .contedor_novedades{
@@ -143,24 +143,24 @@ button:hover{
 
 .subtitulo_novedades{
     font-size: 30px;
-    color: rgb(201, 130, 91);
+    color: var(--color-mostaza);
     font-weight: 700;
     padding: 1rem;
 }
 
 .texto{
     font-size: 24px;
-    color: #c9825b;
+    color: var(--color-mostaza);
     margin: 1rem 0;
     padding: 1rem;
 }
 
 .contactoForm{
-    color:#f89967;
+    color: var(--color-mostaza);
 }
 
 ::placeholder{
-    color: #f89967;
+    color: var(--color-mostaza);
 }
 
 .inputs{
@@ -172,24 +172,24 @@ button:hover{
 }
 
 .inputs:focus{
-    border: 2px solid #f89967 !important;
+    border: 2px solid var(--color-mostaza) !important;
 }
 
 .buttonPrimary{
     padding: 0.8rem 2rem;
     margin: 0 1rem;
-    background-color: #f89967;
+    background-color: var(--color-mostaza);
     color: white !important;
     border: none !important;
 }
 
 .buttonPrimary:hover{
-    background-color: #e86621;
+    background-color: var(--color-naranja);
     cursor: pointer;
 }
 
 footer{
-    background-color: rgb(248, 153, 103);
+    background-color: var(--color-mostaza);
     text-align: center;
     color: white;
     width: 100%;
@@ -197,7 +197,7 @@ footer{
 
 .footer{
     max-width: 1200px;
-    background-color: #f89967;
+    background-color: var(--color-mostaza);
     display: flex;
     margin: auto;
     justify-content: space-around;
