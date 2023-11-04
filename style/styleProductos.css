@@ -22,6 +22,7 @@ h2{
 .proCat{
     max-width: 1200px;
     margin: auto;
+    padding: 4rem 0rem;
 }
 
 
@@ -109,6 +110,8 @@ section .tarjeta .divimg .btn{
 .favoritos .profav{
     margin-left: 120px;
     padding-top: 50px;
+    margin: auto;
+    max-width: 1200px;
     justify-content: space-between;
 }
 
@@ -145,12 +148,19 @@ section .tarjeta .divimg .btn{
     color: antiquewhite;
 }
 
+@media  (max-width: 2560px) {
+    .favoritos .verMas .btn{
+        left: 77rem;
+        top: 2rem;
+    }
+}
+
 @media  (max-width: 1440px) {
     .favoritos .verMas .btn{
         position: relative;
         padding: 1rem 2rem;
+        left: 41rem;
         top: 2rem;
-        left: 42rem;
         background-color: var(--color-anaranjado);
         color: antiquewhite;
     }
@@ -168,9 +178,6 @@ section .tarjeta .divimg .btn{
     }
     .img{
         width: 100%;
-    }
-    .divimg{
-        width: 320px;
     }
 /*categorias de productos*/  
     .prodCategoria{
@@ -218,6 +225,7 @@ section .tarjeta .divimg .btn{
     .favoritos .verMas .btn {
         left:10rem;
         z-index: 4;
+        top: 0.2rem;
     }
     .container{
         flex-direction: column;
@@ -227,6 +235,7 @@ section .tarjeta .divimg .btn{
 @media (max-width: 375px){
     .favoritos .verMas .btn {
         left: 8rem;
+        top: 0.2rem;
     }
 }
 
@@ -234,5 +243,6 @@ section .tarjeta .divimg .btn{
 
 .favoritos .verMas .btn {
     left: 6rem;
+    top: 0.2rem;
 
 }}
