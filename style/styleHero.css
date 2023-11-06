@@ -1,8 +1,12 @@
+.contenedor{
+    margin: auto;
+}
+
 .hero-bg{
     background-image: url("../assets/hero-1.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 500px;
+    height: 60vh;
 }
 
 .hero-container{
@@ -23,6 +27,16 @@
     background-color: var(--color-mostaza-ligth);
     color: var(--color-blanco);
 }
+
+@media (min-width: 1440px){
+    .hero-bg{
+        background-size: cover;
+    }
+}
+    
+
+
+
 
 
 @media (max-width: 1024px){
